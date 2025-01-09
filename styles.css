@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-radius: 20px;
+  background-color: black;
+  width: 375px;
+  margin: 0 auto;
+}
+
+.app-nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    width: 135px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .insta-logo {
+    width: 70px;
+    height: 50px;
+  }
+}
